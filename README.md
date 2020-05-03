@@ -11,6 +11,10 @@ MICountryPicker is a country picker controller for iOS8+ with an option to searc
 MICountryPicker is available through [CocoaPods](http://cocoapods.org), to install
 it simply add the following line to your Podfile:
     
+    # Swift 4
+    use_frameworks!
+    pod 'MICountryPicker', :git => 'https://github.com/AhmedRagabIssa/MICountryPicker.git', :branch => 'master'
+    
     # Swift 3
     use_frameworks!
     pod 'MICountryPicker', :git => 'https://github.com/mustafaibrahim989/MICountryPicker.git', :branch => 'master'
